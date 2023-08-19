@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Sign-Up Page</title>
+  </head>
+
+  <body>
+    <section class="signUp vh-100 bg-gradient" id="signUp">
+      <div
+        class="container py-5 d-flex align-items-center justify-content-center"
+      >
+        <div class="row bg-dark py-5 w-75">
+          <div class="content d-flex align-items-center justify-content-center">
+            <div class="col-md-8 text-center">
+              <h1 class="text-info fw-bold pb-5">SMART LOGIN SYSTEM</h1>
+
+              <div class="form-outline form-white mb-4">
+                <input
+                  type="text"
+                  placeholder="Enter your Name"
+                  id="SignUpName"
+                  class="form-control form-control-lg"
+                />
+              </div>
+
+              <div class="form-outline form-white mb-4">
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  id="SignUpEmail"
+                  class="form-control form-control-lg"
+                />
+              </div>
+
+              <div class="form-outline form-white mb-4">
+                <input
+                  type="password"
+                  placeholder="Enter your password"
+                  id="SignUpPass"
+                  class="form-control form-control-lg"
+                />
+              </div>
+
+              <p class="text-danger MessageFail d-none" id="MessageFail">
+                All inputs is required
+              </p>
+              <p class="text-success MessageSuc d-none" id="MessageSuc">
+                Success
+              </p>
+              <button
+                class="btn btn-outline-primary w-100 px-5"
+                id="SignUp"
+                type="submit"
+              >
+                Sign Up
+              </button>
+            </div>
+          </div>
+          <div>
+            <p class="mb-0 text-white my-5 text-center">
+              Don't have an account?
+              <a href="sign-in.html" class="text-white-50 fw-bold">Sign UP</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
